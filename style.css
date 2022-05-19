@@ -65,7 +65,17 @@ a:hover {
 }
 
 @media all and (max-width: 500px) {
-  /* .flex-nav {
+  .flex-nav ul {
+    flex-flow: wrap;
+  }
+  .flex-nav ul li {
+    width: 100%;
+    flex-direction: column;
+  }
+  .flex-nav ul .social {
     width: 25%;
-  } */
+    flex-direction: row;
+    align-items: flex-end;
+    flex-grow: 1;
+  }
 }
